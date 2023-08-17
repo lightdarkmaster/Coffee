@@ -1,0 +1,154 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.nav-bar {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Sans-serif;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 1px 3px 10px 6px rgba(255, 255, 255, 0.16);
+    background: linear-gradient(to bottom, black, black);
+    position: fixed;
+    z-index: 1;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    padding: 10px 15px 10px 15px;
+    margin: auto;
+}
+
+li:hover {
+    text-shadow: 2px 1px grey;
+    background: white;
+    color: black;
+}
+
+.coffee {
+    background-repeat: no-repeat;
+}
+
+.label {
+    position: absolute;
+    top: 250px;
+    left: 30px;
+    font-size: 40px;
+    color: white;
+    font-family: Georgia;
+    text-shadow: 10px 5px brown;
+    cursor: pointer;
+}
+
+.label:hover {
+    font-size: 41px;
+    color: brown;
+    text-shadow: 10px 5px rgb(255, 255, 255);
+}
+
+.label2 {
+    position: absolute;
+    top: 480px;
+    left: 280px;
+    color: white;
+}
+
+.bg-coffee {
+    position: relative;
+}
+
+.menu {
+    position: absolute;
+    top: 40px;
+    left: 45%;
+    font-size: 25px;
+    color: black;
+    text-shadow: 2px 3px rgb(255, 255, 255);
+    text-align: center;
+    cursor: pointer;
+}
+
+.menu-content {
+    position: absolute;
+    top: 200px;
+    left: 40px;
+    width: 85pc;
+    height: 500px;
+    padding: 20px;
+    justify-content: space-evenly;
+    border: 0px;
+    border-radius: 40px;
+    display: flex;
+    background: linear-gradient(to bottom right, rgba(165, 42, 42, 0.336), rgba(255, 150, 69, 0.768), rgba(165, 42, 42, 0.336));
+    box-shadow: 5px 5px 10px 3px rgba(255, 255, 255, 0.623);
+    cursor: pointer;
+}
+
+.latte {
+    width: 300px;
+    height: 300px;
+    border: 0px;
+    box-shadow: 3px 3px 10px 3px white;
+}
+
+.latte:hover {
+    box-shadow: 3px 3px 10px 3px rgb(79, 82, 255);
+}
+
+.espresso {
+    width: 300px;
+    height: 300px;
+    border: 0px;
+    box-shadow: 3px 3px 10px 3px white;
+}
+
+.espresso:hover {
+    box-shadow: 3px 3px 10px 3px rgb(255, 79, 79);
+}
+
+.black-coffee {
+    width: 300px;
+    height: 300px;
+    border: 0px;
+    box-shadow: 3px 3px 10px 3px white;
+}
+
+.black-coffee:hover {
+    box-shadow: 3px 3px 10px 3px rgb(79, 255, 85);
+}
+
+section {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: 2px 3px grey;
+}
+
+section:hover {
+    font-size: 26px;
+    color: black;
+    text-shadow: 2px 3px steelblue;
+}
+
+.reviews {
+    position: absolute;
+    top: 105pc;
+    left: 100px;
+    width: 80pc;
+    height: 600px;
+    box-shadow: 2px 2px 10px 4px black;
+    display: flex;
+    border: 1px red;
+}

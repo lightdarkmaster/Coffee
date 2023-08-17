@@ -1,0 +1,38 @@
+.container {
+    border-bottom: 2px solid #292942;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+    width: 500px;
+    height: 600px;
+}
+
+.container:focus-within {
+    border-bottom: 2px solid #00c711;
+}
+
+.username {
+    padding: 8px;
+    border: 0px;
+    width: 200px;
+}
+
+.username:focus {
+    outline: 0;
+}
+
+.password {
+    padding: 8px;
+    border: 0px;
+    width: 200px;
+}
+
+.password:focus {
+    outline: 0;
+}
+
+span {
+    float: right;
+    cursor: pointer;
+    background: #fff;
+    padding: 6.5px;
+}
+

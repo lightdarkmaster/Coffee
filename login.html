@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="login-style.css">
+</head>
+
+<body>
+    <div class="container">
+        <input type="text" autocomplete="off" placeholder="Username" class="your username here..">
+        <br>
+        <input type="password" autocomplete="off" placeholder="password" class="your password here..">
+        <span onlick="togglePass()">
+            <i class="fa fa-eye-slash"></i>
+        </span>
+    </div>
+    <script>
+        const passwordEl = document.querySelector(".password");
+        const eyeButton = document.querySelector(".fa");
+        let isPass = true;
+
+        function togglePass() {
+            if (isPass) {
+                passwordEl.setAttribute("type", "text");
+                eyeButton.classList.remove("fa-eye-slash");
+                eyeButton.classList.add("fa-eye");
+                isPass = false;
+            } else {
+                passwordEl.setAttribute("type", "password");
+                eyeButton.classList.remove("fa-eye");
+                eyeButton.classList.add("fa-eye-slash");
+                isPass = true;
+            }
+        }
+    </script>
+</body>
+
+</html>
